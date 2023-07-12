@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "sender": "Bruce Wyane",
+        "message": "Hi! How are you?",
+        "unreadCount": "1"
+    },
+    {
+        "id": 2,
+        "sender": "Alfred Pennyworth",
+        "message": "Hi! How are you?",
+        "unreadCount": "1"
+    },
+    {
+        "id": 3,
+        "sender": "Brad Hussy",
+        "message": "Hi! How are you?",
+        "unreadCount": "1"
+    },
+    {
+        "id": 4,
+        "sender": "Michael Keaton",
+        "message": "Hi! How are you?",
+        "unreadCount": "1"
+    },
+    {
+        "id": 5,
+        "sender": "Val Kilmer",
+        "message": "Hi! How are you?",
+        "unreadCount": "1"
+    },
+    {
+        "id": 6,
+        "sender": "George Clonney",
+        "message": "Hi! How are you?",
+        "unreadCount": "1"
+    },
+    {
+        "id": 7,
+        "sender": "Christian Bale",
+        "message": "Hi! How are you?",
+        "unreadCount": "1"
+    },
+    {
+        "id": 8,
+        "sender": "Ben Affleck",
+        "message": "Hi! How are you?",
+        "unreadCount": "1"
+    },
+    {
+        "id": 9,
+        "sender": "Robert Pattinson",
+        "message": "Hi! How are you?",
+        "unreadCount": "1"
+    },
+    {
+        "id": 10,
+        "sender": "Kevin Conroy",
+        "message": "Hi! How are you?",
+        "unreadCount": "1"
+    },
+    {
+        "id": 11,
+        "sender": "Bob Kaine",
+        "message": "Hi! How are you?",
+        "unreadCount": "1"
+    },
+    {
+        "id": 12,
+        "sender": "Tim Burton",
+        "message": "Hi! How are you?",
+        "unreadCount": "1"
+    },
+    {
+        "id": 13,
+        "sender": "Christopher Nolan",
+        "message": "Hi! How are you?",
+        "unreadCount": "1"
+    }
+]
