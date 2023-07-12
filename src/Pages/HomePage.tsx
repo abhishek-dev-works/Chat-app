@@ -12,7 +12,7 @@ const useStyles = createUseStyles({
 const HomePage = () => {
     const classes = useStyles()
   return (
-    <div className={classes.flex}>
+    <div className={classes.flex} data-testid='Home'>
       <SideBar />
       <Inbox />
     </div>
