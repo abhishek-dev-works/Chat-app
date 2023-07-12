@@ -1,5 +1,4 @@
 import React from "react";
-import { IMessageStyles } from "../Helper/Message";
 import { createUseStyles } from "react-jss";
 
 interface ChatCardProps {
