@@ -1,0 +1,92 @@
+{
+    "senderName": "Abhishek Wilson",
+    "senderId": 123456,
+    "status": "online",
+    "chats": [
+        {
+            "message": "HI, how are you",
+            "direction": "incoming",
+            "sentDate": "10-04-2023",
+            "readStatus": true
+        },
+        {
+            "message": "I am good . What about you ?",
+            "direction": "outgoing",
+            "sentDate": "10-04-2023",
+            "readStatus": true
+        },
+        {
+            "message": "I am good too",
+            "direction": "incoming",
+            "sentDate": "10-04-2023",
+            "readStatus": true
+        },
+        {
+            "message": "Are you free on Saturday?",
+            "direction": "incoming",
+            "sentDate": "10-04-2023",
+            "readStatus": true
+        },
+        {
+            "message": "I am having a party for my younger brother. He returned from US , he has completed his degree and scored a distinction . We are all very happy for his achievement and we wanted to celebrate this moment . So we have decided to throw a party and I would like you to be there . Since you are one of my closest friend and my brother also thinks of you as his elder brother . It would mean a lot if you could make it on Saturday.",
+            "direction": "incoming",
+            "sentDate": "10-04-2023",
+            "readStatus": true
+        },
+        {
+            "message": "HI, how are you",
+            "direction": "outgoing",
+            "sentDate": "10-04-2023",
+            "readStatus": true
+        },
+        {
+            "message": "HI, how are you",
+            "direction": "incoming",
+            "sentDate": "10-04-2023",
+            "readStatus": true
+        },
+        {
+            "message": "HI, how are you",
+            "direction": "incoming",
+            "sentDate": "10-04-2023",
+            "readStatus": true
+        },
+        {
+            "message": "HI, how are you",
+            "direction": "outgoing",
+            "sentDate": "10-04-2023",
+            "readStatus": true
+        },
+        {
+            "message": "HI, how are you",
+            "direction": "outgoing",
+            "sentDate": "10-04-2023",
+            "readStatus": true
+        },
+        {
+            "message": "HI, how are you",
+            "direction": "incoming",
+            "sentDate": "10-04-2023",
+            "readStatus": true
+        },
+        {
+            "message": "HI, how are you",
+            "direction": "incoming",
+            "sentDate": "10-04-2023",
+            "readStatus": true
+        },
+        {
+            "message": "HI, how are you",
+            "direction": "incoming",
+            "sentDate": "10-04-2023",
+            "readStatus": true
+        },
+        {
+            "message": "HI, how are you",
+            "direction": "outgoing",
+            "sentDate": "10-04-2023",
+            "readStatus": true
+        }
+
+    ]
+}

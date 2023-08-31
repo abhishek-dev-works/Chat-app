@@ -3,16 +3,17 @@ import { IChatsStyles } from "../Helper/Chats";
 
 const styles: IChatsStyles = {
   containerIncoming: {
-    backgroundColor: "#f4f4f9" ,
+    backgroundColor: "#f4f4f9",
     border: "1px solid transparent",
     borderRadius: 8,
     maxWidth: 600,
     fontSize: "medium",
     fontWeight: "normal",
-    textAlign: "center",
-    color: 'black',
+    textAlign: "left",
+    color: "black",
     margin: 10,
-    padding: 5
+    padding: 5,
+    alignSelf: "flex-start"
   },
   containerOutgoing: {
     backgroundColor: "#13f6ab",
@@ -21,31 +22,38 @@ const styles: IChatsStyles = {
     maxWidth: 600,
     fontSize: "medium",
     fontWeight: "normal",
-    textAlign: "center",
-    color: 'black',
+    textAlign: "left",
+    color: "black",
     margin: 10,
     padding: 5,
-    float:"right"
+    alignSelf: 'flex-end'
   },
   message: {
-    margin: '5px 0',
-    textAlign: 'center',
+    margin: "5px 0",
+    textAlign: "left",
   },
   time: {
-    float: 'right',
-    fontSize: 'small'
-  }
+    float: "right",
+    fontSize: "small",
+  },
 };
-const Chats = () => {
+
+export interface IChatsProps {
+  direction: "incoming" | "outgoing";
+  message: string;
+  sentDate: string;
+}
+const Chats = (props: IChatsProps) => {
   return (
-    <div style={styles.containerIncoming}>
-      <p style={styles.message}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, quas,
-        nam porro, quisquam quasi repudiandae debitis incidunt quis illo beatae
-        consequatur aspernatur dolorum voluptatem? Vero delectus odit expedita
-        facilis cupiditate!
-      </p>
-      <p style={styles.time}>12:03 pm</p>
+    <div
+      style={
+        props.direction === "incoming"
+          ? styles.containerIncoming
+          : styles.containerOutgoing
+      }
+    >
+      <p style={styles.message}>{props.message}</p>
+      <p style={styles.time}>{props.sentDate}</p>
     </div>
   );
 };
