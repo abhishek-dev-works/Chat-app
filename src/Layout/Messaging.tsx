@@ -11,6 +11,19 @@ const useStyles = createUseStyles({
   container: {
     width: "100%",
     backgroundColor: "#1F1F1F",
+    height: '100vh',
+    "&::-webkit-scrollbar": {
+      width: "0",
+    },
+    "&::-webkit-scrollbar-track": {
+      display: "none",
+    },
+    "&::-webkit-scrollbar-thumb": {
+      display: "none",
+    },
+    "&::-webkit-scrollbar-thumb:hover": {
+      display: "none",
+    },
   },
   header: {
     width: "100%",
@@ -20,7 +33,7 @@ const useStyles = createUseStyles({
   },
   chatsBox: {
     width: "100%",
-    height: 600,
+    height: '70%',
     display: "flex",
     flexDirection: "column",
     padding: 10,
@@ -28,10 +41,11 @@ const useStyles = createUseStyles({
     overflowY: 'scroll'
   },
   messageBox: {
-    width: "100%",
-    height: 300,
+    width: "98%",
     backgroundColor: "#F4F4F9",
     borderRadius: 40,
+    height: '20%',
+    margin: '10px auto'
   },
 });
 
